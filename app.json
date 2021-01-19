@@ -4,7 +4,7 @@
          "options": {
             "version": "18"
          },
-         "plan": "heroku-18"
+         "plan": "heroku-postgresql-18"
       }
    ],
    "description": "Modular Telegram bot for managing your groups with a few extras features.",
