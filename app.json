@@ -4,7 +4,7 @@
          "options": {
             "version": "18"
          },
-         "plan": "heroku-postgresql"
+         "plan": "heroku-18"
       }
    ],
    "description": "Modular Telegram bot for managing your groups with a few extras features.",
@@ -129,7 +129,6 @@
       
    ],
    "name": "Filter BOT",
-   "stack": "heroku-18",
    "repository": "https://github.com/Aid-3n/Advanced-Filter-BOT",
    "success_url": "https://telegram.dog/AID_3N",
    "logo": "https://pbs.twimg.com/profile_images/689189555765784576/3wgIDj3j_400x400.png"
