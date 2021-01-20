@@ -1,11 +1,10 @@
 from emoji import UNICODE_EMOJI
-from googletrans import Translator, LANGUAGES
+from google_trans_new import LANGUAGES, google_translator
+from telegram import ParseMode, Update
+from telegram.ext import CallbackContext, run_async
 
-from telegram import Bot, Update, ParseMode
-from telegram.ext import run_async
-
-from cinderella import dispatcher
-from cinderella.modules.disable import DisableAbleCommandHandler
+from SaitamaRobot import dispatcher
+from SaitamaRobot.modules.disable import DisableAbleCommandHandler
 
 
 @run_async
