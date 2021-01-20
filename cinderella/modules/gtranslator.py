@@ -3,12 +3,12 @@ from google_trans_new import LANGUAGES, google_translator
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, run_async
 
-from SaitamaRobot import dispatcher
-from SaitamaRobot.modules.disable import DisableAbleCommandHandler
+from cinderella import dispatcher
+from cinderella.modules.disable import DisableAbleCommandHandler
 
 
 @run_async
-def totranslate(update: Update, context: CallbackContext):
+def totranslate(update: Update, context):
     message = update.effective_message
     problem_lang_code = []
     for key in LANGUAGES:
