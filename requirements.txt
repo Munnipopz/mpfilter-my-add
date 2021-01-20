@@ -26,7 +26,6 @@ geopy
 nltk
 psutil
 bleach
-Pillow>=4.2.0
 #translator
 googletrans
 fontTools
