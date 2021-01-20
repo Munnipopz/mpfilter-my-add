@@ -1,7 +1,8 @@
 from emoji import UNICODE_EMOJI
-from google_trans_new import LANGUAGES
-from telegram import ParseMode, Update
-from telegram.ext import CallbackContext, run_async
+from googletrans import Translator, LANGUAGES
+
+from telegram import Bot, Update, ParseMode
+from telegram.ext import run_async
 
 from cinderella import dispatcher
 from cinderella.modules.disable import DisableAbleCommandHandler
