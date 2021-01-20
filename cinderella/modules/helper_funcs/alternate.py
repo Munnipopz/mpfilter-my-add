@@ -2,7 +2,7 @@ from functools import wraps
 from telegram import User, Chat, ChatMember
 
 from cinderella import DEL_CMDS, DEV_USERS, SUDO_USERS, WHITELIST_USERS
-from cinderella.mwt import MWT
+from cinderella.mwt import Optional
 
 
 def can_delete(chat: Chat, bot_id: int) -> bool:
